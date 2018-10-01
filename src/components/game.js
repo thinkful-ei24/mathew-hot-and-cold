@@ -7,7 +7,7 @@ import React from 'react';
 import Header from './header';
 import GuessSection from './GuessSection'
 import StatusSection from './StatusSection'
-import InfoSection from './InfoSection'
+import InfoSection from './info-section'
 
 export default function Container() {
   return (
