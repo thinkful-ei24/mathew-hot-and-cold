@@ -1,3 +1,5 @@
+//Other than them using Game vs my Container, everything is the same.
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
