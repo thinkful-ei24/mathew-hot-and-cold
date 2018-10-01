@@ -1,10 +1,13 @@
 import React from 'react';
 
-//I broke this up too much. Tg
+import Feedback from './feedback';
+import GuessForm from './guess-form';
+
 export default function GuessSection() {
   return (
-    <section className="banner">
-      <h2>Make Your Guess!</h2>
+    <section>
+      <Feedback />
+      <GuessForm />
     </section>
   )
 }

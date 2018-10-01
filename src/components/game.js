@@ -1,17 +1,18 @@
 import React from 'react';
 
-import Nav from './Nav';
+// import Nav from './Nav';
 // import MakeGuessText from './Makeguesstext';
-import GuessSection from './GuessSection'
 // import GuessBox from './GuessBox';
-import StatusSection from './StatusSection'
 // import Guesshistory from './Guesshistory';
+import Header from './header';
+import GuessSection from './GuessSection'
+import StatusSection from './StatusSection'
 import InfoSection from './InfoSection'
 
 export default function Container() {
   return (
-    <div className="container">
-      <Nav />
+    <div>
+      <Header />
       {/* <Banner /> */}
       <main role="main">
         <GuessSection /> {/* My version: <MakeGuessText />  */}

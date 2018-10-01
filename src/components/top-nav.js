@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import './nav.css';
+import './top-nav.css';
 
 export default function Nav() {
   return (
@@ -12,10 +12,6 @@ export default function Nav() {
         <li>WHAT?</li>
         <li>+ NEW GAME</li>
       </ul>
-
-      {/* I did not have this here, it was in a different component */}
-      <h1>HOT or COLD</h1> 
-      {/* </section */}
     </nav>
   )
 }

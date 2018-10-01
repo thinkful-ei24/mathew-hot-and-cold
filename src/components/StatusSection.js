@@ -1,11 +1,15 @@
 import React from 'react';
 
-export default function GuessBox() {
+import GuessList from './guess-list';
+import GuessCount from './guess-count';
+import AuralStatus from './aural-status';
+
+export default function StatusSection() {
   return (
-    <section className="guess-box">
-      <input placeholder="Enter Your Guess" /> <br />
-      <button>Guess</button>
-      <p>Guess #0!</p>
+    <section>
+      <GuessCount />
+      <GuessList />
+      <AuralStatus />
     </section>
   )
 }
